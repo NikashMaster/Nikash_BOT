@@ -223,7 +223,7 @@
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*Updated 🤠✅*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*👰 RAVANA Restarting ?*"
+            "AFTER_UPDATE": "💢 RAVANA Restarting ?*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
@@ -437,7 +437,7 @@
         "deepai": {
             "DEEPAI_DESC": "Runs the most powerful artificial intelligence tools using artificial neural networks.",
             "TEXT": "*You must enter text! Although I am a powerful artificial intelligence, I cannot read your thoughts!*",
-            "URL": "*You must enter the image URL!*\n*Example:* https://i.hizliresim.com/nrg50b.jpg"
+            "URL": "*You must enter the image URL!*\n*Example:* https://telegra.ph/file/24cacd9938446a38180fd.png"
         },
         "ttp": {
             "TTP_DESC": "Converts text to plain painting.",
