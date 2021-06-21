@@ -599,7 +599,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                             }
                             else {
                                 await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [RAVANA💢] --*' +                        
-                                    '\n_you can join our support group:_ https://chat.whatsapp.com/IlmB0J0SilOIJRq1CLotXT' +
+                                    '\n_you can join our support group:_ https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP' +
                                     '\n_This message should have gone to your number (saved messages)._\n\n' +
                                     '*Error:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false}
