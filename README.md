@@ -2,8 +2,21 @@
 
 ## 📢 Guide
 Click WA logo to Join Support Group 👇
+<br>
+<br>
+  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP)
+  <div align="center">
+       
+  </div>
+## Setup
+<div align="center">
 
+  ### Simple Method
+  
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@RAVANASL/indexjs#index.js)
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RAVANA-SL/slRavana)
+     </div>
 ### ⚠️ Warning! 
 ```
 Due to Userbot; Your WhatsApp account may be banned.
