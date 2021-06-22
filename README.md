@@ -1,5 +1,19 @@
 
+<div align="center">
+  <img border-radius: 15px src="https://telegra.ph/file/24cacd9938446a38180fd.png" width="250" height="250"/>
+  <p align="center">
 
+    
+       | © | Reserved |
+    
+    
+### ⚠️ Warning! 
+```
+Due to Userbot; Your WhatsApp account may be banned.
+This is an open source project, you are responsible for everything you do. 
+Absolutely, Asena executives do not accept responsibility.
+By establishing the Asena, you are deemed to have accepted these responsibilities.
+```
 ## 📢 Guide
 Click WA logo to Join Support Group 👇
 <br>
