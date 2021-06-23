@@ -87,7 +87,7 @@ Asena.addCommand({pattern: 'watercolor ?(.*)', fromMe: false, dontAddCommandList
 
 }));
 
-Asena.addCommand({pattern: 'ninjalogo ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'game ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
 
