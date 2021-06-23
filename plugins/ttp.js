@@ -320,7 +320,7 @@ Asena.addCommand({pattern: 'snow ?(.*)', fromMe: false, dontAddCommandList: true
         topText = split[0];
 }
 
-    var webimage = await axios.get(`https://api.zeks.xyz/api/splaybutton?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${bottomText`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/splaybutton?apikey=cjxJIn9eDletRHac3CG6CdvGxFH&text=${bottomText}`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```RAVAN🇱🇰```'})
 
