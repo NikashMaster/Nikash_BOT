@@ -9,7 +9,7 @@ const Lang = Language.getString('anime');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'anime', fromMe: true, desc: Lang.AN}, (async (message, match) => {
+    Asena.addCommand({pattern: 'anime', fromMe: true, desc: Lang.SI,EN}, (async (message, match) => {
 
     var r_text = new Array ();
 
