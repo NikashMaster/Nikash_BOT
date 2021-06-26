@@ -103,7 +103,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'anime', fromMe: false, desc: Lang.EN,SI}, (async (message, match) => {
+    Asena.addCommand({pattern: 'anime', fromMe: false, desc: Lang.SI,,EN}, (async (message, match) => {
 
     var r_text = new Array ();
 
