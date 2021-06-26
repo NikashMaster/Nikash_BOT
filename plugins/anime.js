@@ -9,7 +9,7 @@ const Lang = Language.getString('anime');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'anime', fromMe: true, desc: Lang.SI,EN}, (async (message, match) => {
+    Asena.addCommand({pattern: 'anime', fromMe: true, desc: Lang.EN}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -103,7 +103,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'anime', fromMe: false, desc: Lang.SI,EN}, (async (message, match) => {
+    Asena.addCommand({pattern: 'anime', fromMe: false, desc: Lang.EN}, (async (message, match) => {
 
     var r_text = new Array ();
 
