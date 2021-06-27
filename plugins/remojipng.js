@@ -18,7 +18,7 @@ const iii = "type only emoji"
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'remoji ?(.*)', fromMe: true, desc: des}, (async (message, match) => {
+    Asena.addCommand({pattern: 'remoj ?(.*)', fromMe: true, desc: des}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(iii);
 
@@ -30,7 +30,7 @@ if (Config.WORKTYPE == 'private') {
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'remoji ?(.*)', fromMe: false, desc: des}, (async (message, match) => {
+    Asena.addCommand({pattern: 'remoj ?(.*)', fromMe: false, desc: des}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(iii);
 
