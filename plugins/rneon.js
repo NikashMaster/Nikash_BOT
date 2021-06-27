@@ -1,4 +1,4 @@
- /* # Exclusively RAVANA
+    /* # Exclusively RAVANA
     # @lasiya99X t.me/lasiya99X
 */
 
@@ -25,7 +25,7 @@ const lol = "need some word\n🗡🗡"
 
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({ pattern: 'rneon ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({ pattern: 'rneonx ?(.*)', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(lol);
 
