@@ -1,4 +1,4 @@
-/* # Exclusively from RAVANA
+/* # Exclusively from MsJessica
 */
 
 const Asena = require('../events');
