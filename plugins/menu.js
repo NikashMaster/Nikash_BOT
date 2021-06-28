@@ -5,7 +5,7 @@ const axios = require('axios');
 const Language = require('../language');
 const Lang = Language.getString('wallpaper');
 
-Asena.addCommand({pattern: 'help ', fromMe: false, desc: Lang.WP}, (async (message, match) => {
+Asena.addCommand({pattern: 'help', fromMe: false, desc: Lang.WP}, (async (message, match) => {
 
     var r_text = new Array ();
     
@@ -18,7 +18,7 @@ Asena.addCommand({pattern: 'help ', fromMe: false, desc: Lang.WP}, (async (messa
     r_text[5] = "https://telegra.ph/file/24cacd9938446a38180fd.png";
     
         
-    var i = Math.floor(6*Math.random())
+     var i = Math.floor(6*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
