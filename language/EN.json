@@ -27,8 +27,8 @@
         },
         "admin": {
             "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
-            "IM_NOT_ADMIN": "*njan admin alla macha☹️*",
-            "BANNED": "Mwonu Ok Bie!",
+            "IM_NOT_ADMIN": "*මම මේ ගෲප් එකේ පරිපාලකයා නොවේ☹️*",
+            "BANNED": "ඔයානම් මාර සාපයක් මේ ගෲප් එකට🤬!",
             "GIVE_ME_USER": "*arelum mention chey😈!*",
             "ADD_DESC": "Adds someone to the group.",
             "ADDED": "added to the group!",
