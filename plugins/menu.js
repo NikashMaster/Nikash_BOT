@@ -31,155 +31,181 @@ Asena.addCommand({pattern: 'help', fromMe: false, desc: Lang.WP}, (async (messag
 ■□■□■□■□■□■□■□■□■□■□
 ♕ *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♕
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .song <text>
-🍙𝙐𝙨𝙚➜ Downloads song for you.
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .song <පෙළow>
+🍙𝙐𝙨𝙚➜ ඔබ වෙනුවෙන් ගීතය බාගත කරයි..
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .video <yt link>
-🍙𝙐𝙨𝙚➜ Downloads video from YouTube link.
+🍙𝙐𝙨𝙚➜ යූ ටියුබ් සබැඳියෙන් වීඩියෝ බාගන්න.
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .profinsta<username>
-🍙𝙐𝙨𝙚➜ Shows the ig profile of the person.
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .profinsta<පරිශීලක නාමය>
+🍙𝙐𝙨𝙚➜ පුද්ගලයාගේ පැතිකඩෙහි දැක්ව පෙන්වයි.
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .insta <link>
-🍙𝙐𝙨𝙚➜   Downloads content from instagram.
+🍙𝙐𝙨𝙚➜   Instagram වෙතින් අන්තර්ගතය බාගන්න.
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .yt<text>
-🍙𝙐𝙨𝙚➜   Gives you YT links.
+🍙𝙐𝙨𝙚➜   ඔබට yt සබැඳි ලබා දෙයි.
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .show <show name>
-🍙𝙐𝙨𝙚➜   Get info related to tv series and shows.
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .show <පෙන්වන්න නම>
+🍙𝙐𝙨𝙚➜   රූපවාහිනී කතා මාලාව හා සංදර්ශන සම්බන්ධ තොරතුරු ලබා ගන්න.
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .gif 
-🍙𝙐𝙨𝙚➜ Converts video to gif.
+🍙𝙐𝙨𝙚➜ වීඩියෝව gif බවට පරිවර්තනය කරයි.
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .tomp3 
-🍙𝙐𝙨𝙚➜ Converts video into audio.
+🍙𝙐𝙨𝙚➜ වීඩියෝව ශ්රව්ය උපකරණ බවට පරිවර්තනය කරයි.
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .say <text>
-🍙𝙐𝙨𝙚➜ Converts text into voice.
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .say <පෙළ>
+🍙𝙐𝙨𝙚➜ පෙළ හ voice බවට පරිවර්තනය කරයි.
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .img <text>
-🍙𝙐𝙨𝙚➜ It sends image from google.
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .img <පෙළ>
+🍙𝙐𝙨𝙚➜ එය ගූගල් වෙතින් රූපය යවයි.
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .trt <language code>
-🍙𝙐𝙨𝙚➜ Translate the text you tag.
+🍙𝙐𝙨𝙚➜ ඔබ ටැග් කරන පා text ය පරිවර්තනය කරන්න
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .wiki <text>
-🍙𝙐𝙨𝙚➜ It sends Wikipedia result.
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .wiki <පෙළ>
+🍙𝙐𝙨𝙚➜ එය විකිපීඩියාවේ ප්රති .ලය යවයි.
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .lyric <text>
-🍙𝙐𝙨𝙚➜ Finds the lyrics of the song.
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .lyric <පෙළ>
+🍙𝙐𝙨𝙚➜  ගීතයේ පද රචනා සොයා ගනී.
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .covid <country code>
-🍙𝙐𝙨𝙚➜ Send the covid stats of your country.
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .covid <රටේ කේතය>
+🍙𝙐𝙨𝙚➜ ඔබේ රටේ COVID සංඛ්යාලේඛන යවන්න.
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .weather <city>
-🍙𝙐𝙨𝙚➜ Tells you about the weather of your place.
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .weather <නගරය>
+🍙𝙐𝙨𝙚➜ ඔබේ ස්ථානයේ කාලගුණය ගැන ඔබට කියයි.
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .removebg 
-🍙𝙐𝙨𝙚➜ Removes the background of tge image.
+🍙𝙐𝙨𝙚➜ රූපයේ පසුබිම ඉවත් කරයි.
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .ocr
-🍙𝙐𝙨𝙚➜ Finds the text written on the image.
+🍙𝙐𝙨𝙚➜ රූපයේ ලියා ඇති පෙළ සොයා ගනී.
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .wallpaper
-🍙𝙐𝙨𝙚➜ It sends you random wallpaper.
+🍙𝙐𝙨𝙚➜ එය අහඹු බිතුපත ඔබට යවයි.
 
 ■□■□■□■□■□■□■□■□■□■□
 ♟ *𝙁𝙪𝙣 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♟
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .joke 
-🍙𝙐𝙨𝙚➜ It sends a random joke.
+🍙𝙐𝙨𝙚➜ එය අහඹු විහිළුවක් යවයි.
  
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .meme <text>
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .meme <පෙළ>
 🍙𝙐𝙨𝙚➜ Cations the image into a meme.
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .quote 
-🍙𝙐𝙨𝙚➜ It sends a random quote.
+🍙𝙐𝙨𝙚➜ එය අහඹු උපුටා දැක්වීමක් යවයි.
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .ss <website link>
-🍙𝙐𝙨𝙚➜ It sends the screenshot of the website.
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .ss <වෙබ් අඩවි සබැඳිය>
+🍙𝙐𝙨𝙚➜ එය වෙබ් අඩවියේ තිර රුව යවයි.
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .changesay <text>
-🍙𝙐𝙨𝙚➜ Converts text into changesay meme image.
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .changesay <පෙළ>
+🍙𝙐𝙨𝙚➜ Text පෙළ වෙනස් කිරීමේ මතක රූපයක් බවට පරිවර්තනය කරයි.
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .trumpsay
-🍙𝙐𝙨𝙚➜ Convert text into Trump's tweet.
+🍙𝙐𝙨𝙚➜ ට්‍රම්ප්ගේ ට්වීට් එකට පෙළ පරිවර්තනය කරන්න
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .compliment 
-🍙𝙐𝙨𝙚➜ Gives you a compliment.
+🍙𝙐𝙨𝙚➜ ඔබට ප්‍රශංසාවක් ලබා දෙයි.
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .bitly <link>
-🍙𝙐𝙨𝙚➜   Shorten your link.
+🍙𝙐𝙨𝙚➜   ඔබේ සබැඳිය කෙටි කරන්න.
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .dict 
-🍙𝙐𝙨𝙚➜   Dictionary [-dict en;anime]
+🍙𝙐𝙨𝙚➜   ශබ්ද කෝෂය [-dict en; anime]
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .zodiac <leo> 
-🍙𝙐𝙨𝙚➜   Tells you about your horoscope.
+🍙𝙐𝙨𝙚➜   ඔබේ කේන්දර සටහන ගැන ඔබට කියයි.
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .qr <text>
-🍙𝙐𝙨𝙚➜   Converts text into qr code.
+🍙𝙐𝙨𝙚➜   පෙළ qr කේතයක් බවට පරිවර්තනය කරයි.
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .movie 
-🍙𝙐𝙨𝙚➜  Gives you info about movie.
+🍙𝙐𝙨𝙚➜  චිත්‍රපටය පිළිබඳ තොරතුරු ඔබට ලබා දෙයි.
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  .anime <text>
-🍙𝙐𝙨𝙚➜  Gives you info about anime.
+🍙𝙐𝙨𝙚➜  සජීවිකරණය පිළිබඳ තොරතුරු ඔබට ලබා දෙයි.
 ■□■□■□■□■□■□■□■□■□■□
 ♝ *𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♝
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .sticker 
-🍙𝙐𝙨𝙚➜ Converts img/gif into a sticker.
+🍙𝙐𝙨𝙚➜ img / gif ස්ටිකරයක් බවට පරිවර්තනය කරයි.
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .stk 
-🍙𝙐𝙨𝙚➜ Converts img/gif into a square sticker.
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .imagesticker 
-🍙𝙐𝙨𝙚➜ Converts sticker into image.
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .photo 
+🍙𝙐𝙨𝙚➜ ස්ටිකර් රූපයට පරිවර්තනය කරයි.
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .attp <text>
-🍙𝙐𝙨𝙚➜ Converts text into glowing sticker.
+🍙𝙐𝙨𝙚➜ Text පෙළ දිලිසෙන ස්ටිකරයක් බවට පරිවර්තනය කරයි.
 ■□■□■□■□■□■□■□■□■□■□
 💢Logo  Commands💢
 
 💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .txttiomg
-🍙𝙐𝙨𝙚➜ get  logo  commands
+🍙𝙐𝙨𝙚➜ Logo ලාංඡන විධාන ලබා ගන්න
 
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rwolf
-🍙𝙐𝙨𝙚➜ get wolf  logo
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rwolf<පෙළ>
+🍙𝙐𝙨𝙚➜ වෘකයාගේ ලාංඡනය ලබා ගන්න
 
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rlight
-🍙𝙐𝙨𝙚➜ get light  logo
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rlight<පෙළ>
+🍙𝙐𝙨𝙚➜ Light සැහැල්ලු ලාංඡනය ලබා ගන්න
 
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rff
-🍙𝙐𝙨𝙚➜ get free fire  logo
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rff<පෙළ> 
+🍙𝙐𝙨𝙚➜ free fire ලාංඡනය ලබා ගන්න
 
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rlogo
-🍙𝙐𝙨𝙚➜ get  logo
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rlogo<පෙළ>
+🍙𝙐𝙨𝙚➜ ලාංඡනය ලබා ගන්න
 
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rtlogo
-🍙𝙐𝙨𝙚➜ get tiktok  logo
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rphlogo<පෙළ>
+🍙𝙐𝙨𝙚➜ ph ලාංඡනය ලබා ගන්න
 
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rphlogo
-🍙𝙐𝙨𝙚➜ get ph  logo
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rcoding<පෙළ>
+🍙𝙐𝙨𝙚➜ කේතීකරණ ලාංඡනය ලබා ගන්න
 
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rcoding
-🍙𝙐𝙨𝙚➜ get coding  logo
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rbreakwall<පෙළ>
+🍙𝙐𝙨𝙚➜ බ්‍රේක්වෝල් ලාංඡනය ලබා ගන්න
 
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rbreakwall
-🍙𝙐𝙨𝙚➜ get breakwall  logo
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .raveng<පෙළ>
+🍙𝙐𝙨𝙚➜ aveng ලාංඡනය ලබා ගන්න
 
 
-💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .raveng
-🍙𝙐𝙨𝙚➜ get aveng  logo
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rpark<පෙළ>
+🍙𝙐𝙨𝙚➜ park ලාංඡනය ලබා ගන්න
+
+
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rsplay<පෙළ>
+🍙𝙐𝙨𝙚➜ youtube silver play button ලාංඡනය ලබා ගන්න
+
+
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rbook<පෙළ>
+🍙𝙐𝙨𝙚➜ පොතක නම වැටෙන ලාංඡනය ලබා ගන්න
+
+
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rdropwater<පෙළ>
+🍙𝙐𝙨𝙚➜ dropwater ලාංඡනය ලබා ගන්න
+
+
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rbneon<පෙළ>
+🍙𝙐𝙨𝙚➜ bneon ලාංඡනය ලබා ගන්න
+
+
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rgtext<පෙළ>
+🍙𝙐𝙨𝙚➜ tiktok ලාංඡනය ලබා ගන්න
+
+
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .repep<පෙළ>
+🍙𝙐𝙨𝙚➜ free fire ලාංඡනය ලබා ගන්න
+
+
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rsandw<පෙළ>
+🍙𝙐𝙨𝙚➜ මුහුදු වෙරලක ලාංඡනය ලබා ගන්න
 
 
 ┇
