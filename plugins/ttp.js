@@ -72,7 +72,7 @@ Asena.addCommand({pattern: 'sparkling ?(.*)', fromMe: false, dontAddCommandList:
 
     var webimage = await axios.get(`https://docs-jojo.herokuapp.com/api/sparkling?text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*made By Ms RAVANA*' })
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*made By  RAVANA*' })
 
 }));
 
@@ -82,7 +82,7 @@ Asena.addCommand({pattern: 'watercolor ?(.*)', fromMe: false, dontAddCommandList
 
     var webimage = await axios.get(`https://docs-jojo.herokuapp.com/api/watercolor?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*made By Ms RAVANA*' })
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*made By RAVANA*' })
 
 }));
 
@@ -92,7 +92,7 @@ Asena.addCommand({pattern: 'ninjalogo ?(.*)', fromMe: false, dontAddCommandList:
 
     var webimage = await axios.get(`https://docs-jojo.herokuapp.com/api/gaming?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*made By Ms RAVANA*' })
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*made By  RAVANA*' })
 
 }));
 
@@ -102,7 +102,7 @@ Asena.addCommand({pattern: 'neonlight ?(.*)', fromMe: false, dontAddCommandList:
 
     var webimage = await axios.get(`https://docs-jojo.herokuapp.com/api/neon_light?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*made By Ms RAVANA*' })
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*made By  RAVANA*' })
 
 }));
 
@@ -112,7 +112,7 @@ Asena.addCommand({pattern: '3dtext ?(.*)', fromMe: false, dontAddCommandList: tr
 
     var webimage = await axios.get(`https://docs-jojo.herokuapp.com/api/text3d?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*made By Ms RAVANA*' })
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*made By  RAVANA*' })
 
 }));
 
@@ -122,7 +122,7 @@ Asena.addCommand({pattern: 'sandwriting ?(.*)', fromMe: false, dontAddCommandLis
 
     var webimage = await axios.get(`https://api.xteam.xyz/textpro/sandwriting?text=${match[1]}&APIKEY=81b89daeb4288b19`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*made By Ms RAVANA*'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*made By RAVANA*'})
 
     }));
 
@@ -132,7 +132,7 @@ Asena.addCommand({pattern: 'sandwriting ?(.*)', fromMe: false, dontAddCommandLis
 
     var webimage = await axios.get(`https://api.xteam.xyz/textpro/cloudtext?text=${match[1]}&APIKEY=81b89daeb4288b19`, { responseType: 'arraybuffer' })
 
-   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*made By Ms RAVANA*'})
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*made By  RAVANA*'})
 
     }));
 
