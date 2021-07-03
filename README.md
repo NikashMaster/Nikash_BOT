@@ -24,6 +24,13 @@ Click WA logo to Join Support Group 👇
   <div align="center">
        
   </div>
+  
+  ## RAVANA bot විශේෂාංග
+RAVANA bot විශේෂාංග මෙන්න.
+<a href="https://gist.github.com/RAVANA-SL/64b891a432607ba67e55c44f234fbd8f">
+    <img src="https://img.shields.io/badge/Click%20here-purple&style=plastic">
+
+  </a>
 ## Setup
 <div align="center">
 
