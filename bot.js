@@ -141,126 +141,126 @@ async function whatsAsena () {
                 var ov_time = new Date().toLocaleString('LK', { timeZone: 'Europe/Istanbul' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('994')) { // Azerbayjan
                 var ov_time = new Date().toLocaleString('AZ', { timeZone: 'Asia/Baku' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('94')) { // Sri Lanka
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('LK', { timeZone: 'Asia/Colombo' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('351')) { // Portugal
                 var ov_time = new Date().toLocaleString('PT', { timeZone: 'Europe/Lisbon' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('75')) { // Russia
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('RU', { timeZone: 'Europe/Kaliningrad' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('7')) { // Indian
                 var ov_time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('62')) { // Indonesia
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('ID', { timeZone: 'Asia/Jakarta' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('49')) { // Germany
                 var ov_time = new Date().toLocaleString('DE', { timeZone: 'Europe/Berlin' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('61')) { // Australia 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('AU', { timeZone: 'Australia/Lord_Howe' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('55')) { // Brazil
                 var ov_time = new Date().toLocaleString('BR', { timeZone: 'America/Noronha' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('33')) { // France
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('FR', { timeZone: 'Europe/Paris' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('34')) { // Spain
                 var ov_time = new Date().toLocaleString('ES', { timeZone: 'Europe/Madrid' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('44')) { // UK
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('GB', { timeZone: 'Europe/London' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('39')) { // Italy 
                 var ov_time = new Date().toLocaleString('IT', { timeZone: 'Europe/Rome' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('7')) { // Kazakhistan
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('KZ', { timeZone: 'Asia/Almaty' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('998')) { // Uzbekistan 
                 var ov_time = new Date().toLocaleString('UZ', { timeZone: 'Asia/Samarkand' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('993')) { // Turkmenistan
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('TM', { timeZone: 'Asia/Ashgabat' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
             else {
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('EN', { timeZone: 'America/New_York' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💢 RAVANA'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n💕 Maraya'
                 await conn.setStatus(biography)
             }
         }
@@ -347,9 +347,9 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         if (os.userInfo().homedir !== clh.pay) return;
         await new Promise(r => setTimeout(r, 200));
         let afwhasena = config.WORKTYPE == 'public' ? ' Public' : ' Private'
-        console.log(chalk.bgGreen('💢 RAVANA' + afwhasena));
+        console.log(chalk.bgGreen('💕 Maraya' + afwhasena));
         await new Promise(r => setTimeout(r, 500));
-        let EVA_ACTİON = config.LANG == 'TR' || config.LANG == 'AZ' ? '*💢 RAVANA Chatbot Olarak Çalışıyor!* 💢\n\n_Bu modun amacı botu tam fonksiyonel bir yapay zeka sohbet aracına çevirmektir._\n_Normal moda dönmek için_ *.fulleva off* _komutunu kullanabilirsiniz._\n\n*💢RAVANA  Kullandığın İçin Teşekkürler 💌*\n    *- Eva*' : '*WhatsAsena Working as a Chatbot! 💢*\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.fulleva off* _command to return to normal mode._\n\n*Thanks For Using 💢RAVANA*\n    *- Eva*'
+        let EVA_ACTİON = config.LANG == 'TR' || config.LANG == 'AZ' ? '*💕 Maraya Chatbot Olarak Çalışıyor!* 💢\n\n_Bu modun amacı botu tam fonksiyonel bir yapay zeka sohbet aracına çevirmektir._\n_Normal moda dönmek için_ *.fulleva off* _komutunu kullanabilirsiniz._\n\n*💢RAVANA  Kullandığın İçin Teşekkürler 💌*\n    *- Eva*' : '*WhatsAsena Working as a Chatbot! 💢*\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.fulleva off* _command to return to normal mode._\n\n*Thanks For Using 💕 Maraya*\n    *- Eva*'
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
             await conn.sendMessage(conn.user.jid,nw, MessageType.text), console.log(nw), await new Promise(r => setTimeout(r, 1000))
             await heroku.get(baseURI + '/formation').then(async (formation) => { 
@@ -367,7 +367,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*💢 RAVANA Public ලෙස වැඩ කිරීම! 💢*\n\n_කරුණාකර මෙහි ප්ලගීන උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකයයි._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ බොට් ප්‍රසිද්ධියේ ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*RAVANA භාවිතා කිරීමට ස්තූතියි 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*💕 Maraya Public ලෙස වැඩ කිරීම! 💢*\n\n_කරුණාකර මෙහි ප්ලගීන උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකයයි._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ බොට් ප්‍රසිද්ධියේ ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*💕 Maraya භාවිතා කිරීමට ස්තූතියි 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -393,7 +393,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n*💢 RAVANA Working as Public! 👰*\n', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n*💕 Maraya Working as Public! 👰*\n', MessageType.text);
                 }               
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -422,7 +422,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '*💢 RAVANA Public ලෙස වැඩ කිරීම! 💢*\n\n_කරුණාකර මෙහි ප්ලගීන උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකයයි._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ බොට් ප්‍රසිද්ධියේ ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*RAVANA භාවිතා කිරීමට ස්තූතියි 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*💕 Maraya Public ලෙස වැඩ කිරීම! 💢*\n\n_කරුණාකර මෙහි ප්ලගීන උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකයයි._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ බොට් ප්‍රසිද්ධියේ ක්‍රියාත්මක වේ. වෙනස් කිරීමට* _.setvar WORK_TYPE:private_ *විධානය භාවිතා කරන්න.*\n\n*💕 Maraya භාවිතා කිරීමට ස්තූතියි 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -448,7 +448,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n*💢 RAVANA  Working as Private!*\n\n_කරුණාකර මෙහි ප්ලගීන උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකයයි._\n_ඔබට ඕනෑම කතාබහකට විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ බොට් පුද්ගලික ලෙස වැඩ කරයි. එය වෙනස් කිරීමට, භාවිතා කරන්න* _.setvar WORK_TYPE:public_\n\n*භාවිතා කිරීමට ස්තූතියි RAVANA 💌*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n*💕 Maraya  Working as Private!*\n\n_කරුණාකර මෙහි ප්ලගීන උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකයයි._\n_ඔබට ඕනෑම කතාබහකට විධාන උත්සාහ කළ හැකිය :)_\n\n*ඔබේ බොට් පුද්ගලික ලෙස වැඩ කරයි. එය වෙනස් කිරීමට, භාවිතා කරන්න* _.setvar WORK_TYPE:public_\n\n*භාවිතා කිරීමට ස්තූතියි 💕 Maraya 💌*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -655,17 +655,17 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                             if (config.NOLOG == 'true') return;
 
                             if (config.LANG == 'TR' || config.LANG == 'AZ') {
-                                await conn.sendMessage(conn.user.jid, '*-- දෝෂ වාර්තාව [RAVANA] --*' + 
-                                    '\n*RAVANA දෝෂයක් සිදුවී ඇත!*'+
+                                await conn.sendMessage(conn.user.jid, '*-- දෝෂ වාර්තාව [💕 Maraya] --*' + 
+                                    '\n*💕 Maraya දෝෂයක් සිදුවී ඇත!*'+
                                     '\n_මෙම දෝෂ ලොගයෙහි ඔබගේ අංකය හෝ ප්‍රති පාර්ශ්වයේ අංකය අඩංගු විය හැකිය. කරුණාකර එය සමග සැලකිලිමත් වන්න!_' +
                                     '\n_උදව් සඳහා ඔබට අපගේ whatsapp කණ්ඩායමට ලිවිය හැකිය.._' +
                                     '\n_Bu mesaj sizin numaranıza (kaydedilen mesajlar) gitmiş olmalıdır._' +
-                                    '\n_Hatayı https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP ඔබට එය මෙම කණ්ඩායමට යොමු කළ හැකිය.._\n\n' +
+                                    '\n_Hatayı https://chat.whatsapp.com/KWxo7uTMFVIG8Yh8sY8bcJ ඔබට එය මෙම කණ්ඩායමට යොමු කළ හැකිය.._\n\n' +
                                     '*සිදුවීමේ දෝෂයකි:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false});
 
                                 if (error.message.includes('URL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විසඳුම [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විසඳුම [💕 Maraya] ⚕️*' + 
                                         '\n========== ```කියවීමේ දෝෂයකි!``` ==========' +
                                         '\n\n*මම ගොඩක්:* _සහය දක්වන්නේ නියත වශයෙන්ම URL ය_' +
                                         '\n*හේතුව:* _ලොග් අංකයේ භාවිතා කරන මාධ්‍ය මෙවලම්(xmedia, sticker..) ලොග් අංකයෙන් භාවිතා කිරීම._' +
@@ -674,7 +674,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('SSL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විසඳුම [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විසඳුම [💕 Maraya] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*මම ගොඩක්:* _SQL Database Error_' +
                                         '\n*Nedeni:* _Database\'කඩාකප්පල් කිරීම._ ' +
@@ -683,7 +683,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [💕 Maraya] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Split of Undefined_' +
                                         '\n*Nedeni:* _Grup adminlerinin kullanabildiği komutların ara sıra split fonksiyonunu görememesi._ ' +
@@ -692,7 +692,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );                               
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [💕 Maraya] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Ookla Server Connection_' +
                                         '\n*Nedeni:* _Speedtest verilerinin sunucuya iletilememesi._' +
@@ -701,7 +701,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [💕 Maraya] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Requested Audio Params_' +
                                         '\n*Nedeni:* _TTS komutunun latin alfabesi dışında kullanılması._' +
@@ -710,7 +710,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [💕 Maraya] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _No Such File or Directory_' +
                                         '\n*Nedeni:* _Pluginin yanlış kodlanması._' +
@@ -719,7 +719,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [💕 Maraya] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Error 404 HTTPS_' +
                                         '\n*Nedeni:* _Heroku plugini altındaki komutların kullanılması sonucu sunucu ile iletişime geçilememesi._' +
@@ -728,7 +728,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [💕 Maraya] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Reply Delete Function_' +
                                         '\n*Nedeni:* _IMG yada Wiki komutlarının kullanılması._' +
@@ -737,7 +737,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [💕 Maraya] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Reply Delete Function_' +
                                         '\n*Nedeni:* _IMG yada Wiki komutlarının kullanılması._' +
@@ -746,7 +746,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [💕 Maraya] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Bailyes Action Error_ ' +
                                         '\n*Nedeni:* _Tam nedeni bilinmiyor. Birden fazla seçenek bu hatayı tetiklemiş olabilir._' +
@@ -755,7 +755,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [💕 Maraya] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Cannot Decode Text or Media_' +
                                         '\n*Nedeni:* _Pluginin yanlış kullanımı._' +
@@ -764,7 +764,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [💕 Maraya] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Word Character Usage_' +
                                         '\n*Nedeni:* _TTP, ATTP gibi komutların latin alfabesi dışında kullanılması._' +
@@ -773,7 +773,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('conversation')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ HATA ÇÖZÜMLEME [💕 Maraya] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*Ana Hata:* _Deleting Plugin_' +
                                         '\n*Nedeni:* _Silinmek istenen plugin isminin yanlış girilmesi._' +
@@ -789,17 +789,17 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                 }
                             }
                             else {
-                                await conn.sendMessage(conn.user.jid, '*-- දෝෂ වාර්තාව [RAVANA] --*' + 
-                                    '\n*RAVANA දෝෂයක් සිදුවී ඇත!*'+
+                                await conn.sendMessage(conn.user.jid, '*-- දෝෂ වාර්තාව [💕 Maraya] --*' + 
+                                    '\n*💕 Maraya දෝෂයක් සිදුවී ඇත!*'+
                                     '\n_මෙම දෝෂ ලොගයෙහි ඔබගේ අංකය හෝ ප්‍රති පාර්ශ්වයේ අංකය අඩංගු විය හැකිය. කරුණාකර එය සමග සැලකිලිමත් වන්න!_' +
                                     '\n_උදව් සඳහා ඔබට අපගේ whatsapp කණ්ඩායමට ලිවිය හැකිය.._' +
                                     '\n_Bu mesaj sizin numaranıza (kaydedilen mesajlar) gitmiş olmalıdır._' +
-                                    '\n_Hatayı https://chat.whatsapp.com/BZxwFPt5pUe19Y4EW9DjDP ඔබට එය මෙම කණ්ඩායමට යොමු කළ හැකිය.._\n\n' +
+                                    '\n_Hatayı https://chat.whatsapp.com/KWxo7uTMFVIG8Yh8sY8bcJ ඔබට එය මෙම කණ්ඩායමට යොමු කළ හැකිය.._\n\n' +
                                     '*සිදුවීමේ දෝෂයකි:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false}
                                 );
                                 if (error.message.includes('URL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ ERROR ANALYSIS [💕 Maraya] ⚕️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Only Absolutely URLs Supported_' +
                                         '\n*Reason:* _The usage of media tools (xmedia, sticker..) in the LOG number._' +
@@ -808,7 +808,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                if (error.message.includes('URL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විසඳුම [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විසඳුම [💕 Maraya] ⚕️*' + 
                                         '\n========== ```කියවීමේ දෝෂයකි!``` ==========' +
                                         '\n\n*මම ගොඩක්:* _සහය දක්වන්නේ නියත වශයෙන්ම URL ය_' +
                                         '\n*හේතුව:* _ලොග් අංකයේ භාවිතා කරන මාධ්‍ය මෙවලම්(xmedia, sticker..) ලොග් අංකයෙන් භාවිතා කිරීම._' +
@@ -817,7 +817,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                    );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [💕 Maraya] ⚕️*' + 
                                         '\n========== ```දෝෂය විසඳා ඇත!``` ==========' +
                                         '\n\n*ප්‍රධාන දෝෂය: * _ නිර්වචනය නොකළ_' +
                                        '\ n * හේතුව: * _ කණ්ඩායම් පරිපාලකයින්ට භාවිතා කළ හැකි ඉල්ලීම් විටින් විට බෙදීම් ශ්‍රිතය නොපෙනේ ._' +
@@ -826,7 +826,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('SSL')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විසඳුම [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විසඳුම [💕 Maraya] ⚕️*' + 
                                         '\n========== ```Hata Okundu!``` ==========' +
                                         '\n\n*මම ගොඩක්:* _SQL Database Error_' +
                                         '\n*Nedeni:* _Database\'කඩාකප්පල් කිරීම._ ' +
@@ -835,7 +835,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [💕 Maraya] ⚕️*' + 
                                         '\n========== ```දෝෂය විසඳා ඇත!``` ==========' +
                                         '\n\n*ප්‍රධාන දෝෂය: * _ඔක්ලා සේවාදායක සම්බන්ධතාවය_' +
                                         '\n*Reason:* _Speedtest data cannot be transmitted to the server._' +
@@ -844,7 +844,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [💕 Maraya] ⚕️*' + 
                                         '\n========== ```දෝෂය විසඳා ඇත!``` ==========' +
                                         '\n\n*ප්‍රධාන දෝෂය: * _ඔක්ලා සේවාදායක සම්බන්ධතාවය_' +
                                         '\n*හේතුව: * _ වේගවත් දත්ත සේවාදායකයට සම්ප්‍රේෂණය කළ නොහැක._' +
@@ -853,7 +853,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [💕 Maraya] ⚕️*' + 
                                         '\n========== ```දෝෂය විසඳා ඇත``` ==========' +
                                         '\n\n*ප්‍රධාන දෝෂය: * _ එවැනි ගොනුවක් හෝ නාමාවලිය_' +
                                         '\n*හේතුව: * _ ප්ලගිනයේ වැරදි කේතීකරණය._' +
@@ -862,7 +862,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [💕 Maraya] ⚕️*' + 
                                         '\n========== ```දෝෂය විසඳා ඇත!``` ==========' +
                                         '\n\n*Main Error:* _Error 404 HTTPS_' +
                                         '\n*Reason:* _Failure to communicate with the server as a result of using the commands under the Heroku plugin._' +
@@ -871,7 +871,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [💕 Maraya] ⚕️*' + 
                                         '\n========== ```දෝෂය විසඳා ඇත!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
                                         '\n*Reason:* _Using IMG or Wiki commands._' +
@@ -880,7 +880,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [💕 Maraya] ⚕️*' + 
                                         '\n========== ```දෝෂය විසඳා ඇත!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
                                         '\n*Reason:* _Using IMG or Wiki commands._' +
@@ -889,7 +889,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [💕 Maraya] ⚕️*' + 
                                         '\n========== ```දෝෂය විසඳා ඇත!``` ==========' +
                                         '\n\n*Main Error:* _Bailyes Action Error_ ' +
                                         '\n*Reason:* _The exact reason is unknown. More than one option may have triggered this error._' +
@@ -898,7 +898,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [💕 Maraya] ⚕️*' + 
                                         '\n========== ```දෝෂය විසඳා ඇත!``` ==========' +
                                         '\n\n*Main Error:* _Cannot Decode Text or Media_' +
                                         '\n*Reason:* _Incorrect use of the plug._' +
@@ -907,7 +907,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [RAVANA] ⚕️*' + 
+                                    return await conn.sendMessage(conn.user.jid, '*⚕️ දෝෂ විශ්ලේෂණය  [💕 Maraya] ⚕️*' + 
                                         '\n========== ```දෝෂය විසඳා ඇත!``` ==========' +
                                         '\n\n*Main Error:* _Word Character Usage_' +
                                         '\n*Reason:* _Using commands such as TTP, ATTP outside the Latin alphabet._' +
