@@ -286,6 +286,38 @@ Asena.addCommand({pattern: 'help', fromMe: false, desc: Lang.WP}, (async (messag
 🍙𝙐𝙨𝙚➜ bokeh ලාංඡනය ලබා ගන්න
 
 
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rpaper<පෙළ>
+🍙𝙐𝙨𝙚➜ paper in grass ලාංඡනය ලබා ගන්න
+
+
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rdneon<පෙළ>
+🍙𝙐𝙨𝙚➜ dark neon ලාංඡනය ලබා ගන්න
+
+
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rcc2<පෙළ>
+🍙𝙐𝙨𝙚➜ cofee cup 2 ලාංඡනය ලබා ගන්න
+
+
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rharry<පෙළ>
+🍙𝙐𝙨𝙚➜ harry potter ලාංඡනය ලබා ගන්න
+
+
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .ruwo<පෙළ>
+🍙𝙐𝙨𝙚➜ under woter ocean ලාංඡනය ලබා ගන්න
+
+
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rwood<පෙළ>
+🍙𝙐𝙨𝙚➜ wood ලාංඡනය ලබා ගන්න
+
+
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rwood<පෙළ>
+🍙𝙐𝙨𝙚➜ wood ලාංඡනය ලබා ගන්න
+
+
+💮𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ .rcandy<පෙළ>
+🍙𝙐𝙨𝙚➜ candy ලාංඡනය ලබා ගන්න
+
+
 සමහර ලොගෝ වැඩ නෑ මොකද ලොගෝ දෙන site එක limit තියෙන්නේ unlimited ගන්නනම් සල්ලි  ඕන.
 ┇
 ┇ ᵐᵒʳᵉ ˡᵒᵍᵒˢ ᶜᵒᵐᵐⁱⁿᵍ ˢᵒᵒⁿ😉
