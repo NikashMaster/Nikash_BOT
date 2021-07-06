@@ -1,8 +1,8 @@
-###      RAVANA BOT ලංකාවේ🇱🇰 සිංහල බොටෙක්
+###      MARAYA BOT ලංකාවේ🇱🇰 සිංහල බොටෙක්
 
 
 <div align="center">
-  <img border-radius: 15px src="https://telegra.ph/file/24cacd9938446a38180fd.png" width="250" height="250"/>
+  <img border-radius: 15px src="" width="250" height="250"/>
   <p align="center">
 
     
@@ -25,8 +25,8 @@ Click WA logo to Join Support Group 👇
        
   </div>
   
-  ## RAVANA bot විශේෂාංග
-RAVANA bot විශේෂාංග මෙන්න.
+  ## 💕Maraya bot විශේෂාංග
+💕Maraya bot විශේෂාංග මෙන්න.
 <a href="https://gist.github.com/RAVANA-SL/64b891a432607ba67e55c44f234fbd8f">
     <img src="https://img.shields.io/badge/Click%20here-purple&style=plastic">
 
@@ -57,7 +57,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
   </div>
     
-##  Help  Prabath  dimuth
+##  Help  Usuf Usta
 
 ## License
 This project is protected by `GNU General Public Licence v3.0` license.
