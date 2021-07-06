@@ -147,6 +147,7 @@
             "ERROR": "```I couldn't read this :/```\n*Error:*```{}```",
             "RESULT": "*Language:* ```{}```\n*Here is what I read:* ```{}```"
         },
+
         "profile": {
             "KICKME_DESC": "It kicks you from the group you are using it in.",
             "KICKME": "```ගිහින් එන්නම්! මම යනවා 🥰```",
