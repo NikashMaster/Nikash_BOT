@@ -13,7 +13,7 @@
             "required": true
         },
         "SUDO": {
-            "description": "මෙය වෙනස් වැලකෙන්න!",
+            "description": "මෙය වෙනස් කිරීමෙන් වැලකෙන්න!",
             "required": false,
             "value": "94762157933,0"
         },
