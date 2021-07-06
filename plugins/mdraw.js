@@ -30,7 +30,8 @@ else if (Config.WORKTYPE == 'public') {
         if (match[1] === '') return await message.sendMessage(need);
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/draw-image?apikey=00oQhHnqcqFGofHbjsFtXZcKVWO&image=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
-
+        if (message.reply_message === false) return await message.client.sendMessage(message.jid,Lang.NEED_REPLY, MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,Lang.DOWNLOADING,MessageType.text);
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by 💕 Maraya*' })
 
     }));
