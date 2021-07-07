@@ -2,4 +2,4 @@ build:
   docker:
       worker: /whatsasena/Dockerfile
 run:
-   worker: npm star
+   worker: npm start
