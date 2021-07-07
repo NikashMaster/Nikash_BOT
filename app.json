@@ -15,7 +15,6 @@
         "SUDO": {
             "description": "මෙය වෙනස් කිරීමෙන් වැලකෙන්න!",
             "required": false,
-            "value": "94762157933,0"
         },
         "LANGUAGE": {
             "description": "",
