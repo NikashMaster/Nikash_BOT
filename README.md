@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img border-radius: 50px src="https://telegra.ph/file/6190a820e588327917f8a.png" width="250" height="250"/>
+  <img border-radius: 50px src="https://telegra.ph/file/8cff3f8fa00f71003fecf.jpg" width="250" height="250"/>
   <p align="center">
 
     
