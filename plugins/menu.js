@@ -10,12 +10,12 @@ Asena.addCommand({pattern: 'nikash', fromMe: false, desc: Lang.WP}, (async (mess
     var r_text = new Array ();
     
     
-    r_text[0] = "මෙන්න මගේ මෙනු එක";
-    r_text[1] = "මෙන්න මගේ මෙනු එක";
-    r_text[2] = "මෙන්න මගේ මෙනු එක";
-    r_text[3] = "මෙන්න මගේ මෙනු එක";
-    r_text[4] = "මෙන්න මගේ මෙනු එක";
-    r_text[5] = "මෙන්න මගේ මෙනු එක";
+    r_text[0] = "";
+    r_text[1] = "";
+    r_text[2] = "";
+    r_text[3] = "";
+    r_text[4] = "";
+    r_text[5] = "";
     
         
      var i = Math.floor(6*Math.random())
