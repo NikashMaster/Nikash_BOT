@@ -10,23 +10,23 @@ Asena.addCommand({pattern: 'nikash', fromMe: false, desc: Lang.WP}, (async (mess
     var r_text = new Array ();
     
     
-    r_text[0] = "";
-    r_text[1] = "";
-    r_text[2] = "";
-    r_text[3] = "";
-    r_text[4] = "";
-    r_text[5] = "";
+    r_text[0] = "https://telegra.ph/file/3af9d17a3ce85b4531b86.jpg";
+    r_text[1] = "https://telegra.ph/file/3af9d17a3ce85b4531b86.jpg";
+    r_text[2] = "https://telegra.ph/file/3af9d17a3ce85b4531b86.jpg";
+    r_text[3] = "https://telegra.ph/file/3af9d17a3ce85b4531b86.jpg";
+    r_text[4] = "https://telegra.ph/file/3af9d17a3ce85b4531b86.jpg";
+    r_text[5] = "https://telegra.ph/file/3af9d17a3ce85b4531b86.jpg";
     
         
      var i = Math.floor(6*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━💮MARAYA💮━━━━━⛦
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━💮Nikash💮━━━━━⛦
 
 
-𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 Maraya🇱🇰 𝐛𝐨𝐭.
-╚═════════════MARAYA(.)
+𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 Niaksh🇱🇰 𝐛𝐨𝐭.
+╚═════════════Nikash(.)
 
 ■□■□■□■□■□■□■□■□■□■□
 ♕ *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♕
@@ -155,7 +155,7 @@ Logo  Commands
 ┇              *!txttoimg*
 ╚═══════════════════════════════
 
-═════💕Maraya═════
+═════💕Nikash═════
 ▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣
 
 `}) 
